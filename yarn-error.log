@@ -1,0 +1,66 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /usr/local/opt/openssl/bin:/usr/local/opt/openssl/bin:/usr/local/opt/openssl/bin:/Users/wenwangwang/.rvm/gems/ruby-2.4.1/bin:/Users/wenwangwang/.rvm/gems/ruby-2.4.1@global/bin:/Users/wenwangwang/.rvm/rubies/ruby-2.4.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/aria2/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/wenwangwang/.rvm/bin:/Users/wenwangwang/Library/Android/sdk/tools:/Users/wenwangwang/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  10.24.1
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "vcrontab",
+    "version": "0.3.5",
+    "description": "vue 的 cron 组件，支持解析/反解析 cron 表达式，生成最近五次的符合条件时间",
+    "author": "smallstone",
+    "license": "MIT",
+    "main": "lib/vcrontab.umd.min.js",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:small-stone/vue-crontab.git"
+    },
+    "homepage": "https://small-stone.github.io/vCrontab/dist/",
+    "keywords": [
+      "cron",
+      "vue",
+      "vuecron",
+      "crontab",
+      "vue-crontab"
+    ],
+    "scripts": {
+      "serve": "vue-cli-service serve",
+      "build": "vue-cli-service build",
+      "lib": "vue-cli-service build --target lib --name vcrontab --dest lib src/index.js"
+    },
+    "dependencies": {
+      "element-ui": "^2.4.11",
+      "vue": "^2.5.17"
+    },
+    "devDependencies": {
+      "@vue/cli-plugin-babel": "^3.0.0",
+      "@vue/cli-service": "^3.0.0",
+      "vue-template-compiler": "^2.5.17"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Found incompatible module
+      at new MessageError (/usr/local/lib/node_modules/yarn/lib/cli.js:186:110)
+      at checkOne (/usr/local/lib/node_modules/yarn/lib/cli.js:62444:11)
+      at Object.check (/usr/local/lib/node_modules/yarn/lib/cli.js:62463:5)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:22803:73
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:98:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:109:13
